@@ -1,0 +1,105 @@
+/*
+ * TREE TABLE CSS
+ */
+  @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: normal;
+        src: url('/fonts/Raleway-Black.ttf');
+ }
+    
+
+.jfx-tree-table-view {
+    -fx-tree-table-color: #84CD8D;
+}
+
+.tree-table-view {
+ 	-fx-background-color: #84CD8D;
+}
+
+.tree-table-view .label {
+	-fx-text-fill: white;
+}
+
+.tree-table-row-cell{
+	-fx-background-color: #84CD8D;
+	
+}
+
+.tree-table-view .column-header {
+	-fx-background-color: #26412A;
+	-fx-border-width: 0.5px;
+	-fx-text-fill: white;
+}
+
+.tree-table-row-cell:selected {
+	-fx-background-color: #A177B5;
+}
+
+.root {
+	-fx-background-color: #312238;
+	-fx-font-family: 'Raleway', sans-serif;
+}
+
+/*COMBO BOX */
+
+#searchCatBox {
+    -fx-background-color: #84CD8D;
+    -jfx-focus-color: #8939AE;
+	-jfx-unfocus-color: #312238;
+}
+
+#searchCatBox .list-cell {
+	-fx-background-color: #84CD8D;
+	-fx-border-color: white;
+	-fx-text-fill: black;
+	-fx-border-width: 0.5px;
+}
+
+#searchCatBox .list-cell:selected {
+    -fx-text-fill: #8939AE ;
+}   
+
+#searchCatBox .jfx-rippler {
+	-jfx-rippler-fill: #8939AE;
+}
+
+#searchTextField {
+	-jfx-focus-color: #8939AE;
+	-jfx-unfocus-color: #312238;
+	-fx-background-color: #84CD8D;
+	-fx-text-fill: black;
+}
+
+.jfx-button {
+	-fx-background-color: #84CD8D;
+}
+
+.jfx-button .jfx-rippler {
+      -jfx-rippler-fill: #8939AE;
+}
+
+.jfx-snackbar-content {
+    -fx-background-color: #323232;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-pref-width: 150;
+    -fx-max-height: 100;
+}
+
+.jfx-snackbar-toast {
+   -fx-text-fill: WHITE;
+}
+
+
+.jfx-snackbar-action {
+    -fx-text-fill: rgb(61,114,144);
+}
+
+#snackPane {
+	-fx-background-color: #8939AE;
+}
+
+.jfx-toggle-button {
+	-jfx-toggleColor: #8939AE;
+}
